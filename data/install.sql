@@ -60,7 +60,7 @@ CREATE TABLE upvote_songs (
     updated_at timestamptz,
     is_signin BOOLEAN,
     status VARCHAR(50)
-)
+);
 
 CREATE TABLE song_tasks (
     uuid VARCHAR(255) UNIQUE NOT NULL,
